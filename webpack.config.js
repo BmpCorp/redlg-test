@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/js/app/app.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -33,6 +33,19 @@ module.exports = {
           {
             // Loads a SASS/SCSS file and compiles it to CSS
             loader: 'sass-loader'
+          }
+        ]
+      },
+      {
+        test: /\.(png|ttf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+              context: 'src',
+              emitFile: true
+            }
           }
         ]
       }
