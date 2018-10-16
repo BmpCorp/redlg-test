@@ -1,1 +1,0 @@
-import './main-screen.scss';
