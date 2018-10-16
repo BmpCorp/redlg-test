@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "redlg-test"
+    "url": "https://github.com/BmpCorp/redlg-test.git"
   },
   "author": "Vladimir Kozlov",
   "license": "ISC",
@@ -23,9 +23,5 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   },
-  "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.4"
-  }
+  "dependencies": {}
 }

@@ -1,0 +1,40 @@
+$large-width: 1024px;
+$medium-width: 768px;
+$small-width: 320px;
+
+$text-color: #343434;
+
+$main-screen_bg-color: #F5F1E9;
+$main-screen__button_bg-color: #343434;
+$main-screen__button_text-color: white;
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("/fonts/PT_Sans-Web-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("/fonts/PT_Serif-Web-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+$font-sans: "PT Sans", sans-serif;
+$font-serif: "PT Serif", serif;
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
